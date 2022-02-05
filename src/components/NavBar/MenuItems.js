@@ -15,7 +15,7 @@ export const MenuItems=[
         cName:'nav-links'
     },
     {
-        title: 'Iniciar Sesión',
+        title: 'Comunidad',
         url: '#',
         cName:'nav-links'
     },
