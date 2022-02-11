@@ -1,0 +1,11 @@
+.cart{
+   height: 34px;
+   width: 34px;
+   margin-right: 40px;
+   border-width: 0;
+}
+
+.btn-cart{
+    margin-right: 35px;
+    border-width: 0;
+}
