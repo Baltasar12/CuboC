@@ -1,0 +1,10 @@
+
+.itemC{
+    display: flex;
+    align-items: center;
+    margin-left: 80%;
+    margin-right: 7%;
+    margin-top: 5%;
+    border: 3px solid black;
+    border-radius: 4px;
+}
