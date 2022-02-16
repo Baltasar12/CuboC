@@ -1,3 +1,6 @@
+//datos de los productos para luego ser mostrado mediante 'map'
+
+
 const data = {
     productData:[
         {

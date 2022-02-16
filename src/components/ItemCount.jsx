@@ -1,6 +1,9 @@
 import React from 'react';
 import {useCart} from "react-use-cart";
 
+//Esto es el contador del carrito
+
+
 function ItemCount() {
   
   const{

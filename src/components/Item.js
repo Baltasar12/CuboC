@@ -1,6 +1,9 @@
 import React from "react";
 import { useCart } from "react-use-cart";
 
+//Para crear la 'carta' con bootstrap y mostrar los productos. Es exportado a ItemListContainer
+
+
 const Item = (props) =>{
     const{ addItem } = useCart();
 
