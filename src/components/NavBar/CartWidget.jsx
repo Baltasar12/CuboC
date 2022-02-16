@@ -6,7 +6,7 @@ let style = {
     borderWith: 0
 }
 
-export function Cart(props){
+export function CartWidget(props){
     return(
         <button style={style}><i className={"i bi-cart2 cart"}></i></button>
     );

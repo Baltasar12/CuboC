@@ -1,15 +1,22 @@
 import React from 'react';
+import {CartProvider} from "react-use-cart";
+import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/NavBar/NavBar";
 import ItemList from './components/ItemListContainer';
-import './App.css';
+import ItemCount from './components/ItemCount';
 
 function App() {
   return (
     <React.Fragment>
-    <div className="App">
+    
     <Navbar/>
-    <div> <ItemList/> </div>
-    </div>
+    <>
+    <CartProvider>
+    <ItemList/>
+    <ItemCount/>
+    </CartProvider>
+    </>
     </React.Fragment>
   );
 }
