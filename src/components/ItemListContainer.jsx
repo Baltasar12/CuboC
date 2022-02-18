@@ -1,24 +1,23 @@
 import React from "react";
-import ItemCount from "./ItemCount";
 import Item from './Item'
-import data from './data'
+import ItemList from "./ItemList";
 
-const ItemList = () =>{
-    console.warn(data.productData)
+const ItemListContainer = () =>{
+    console.warn(ItemList.productData)
     return(
         <>
         <h1 className="text-center mt-3">Productos</h1>
         <section className="py-4 container">
             <div className="row justify-content-center">
-                {data.productData.map((item,index)=>{
+                {ItemList.productData.map((item,index)=>{
                     return(
                         <Item>
-                            item={item}
-                            key={index}
-                            img={item.img}
+                            img={item.pictureUrl}
                             title={item.title}
                             desc={item.desc}
                             price={item.price}
+                            item={item}
+                            key={index}
                         </Item>
                     )
                 })}
@@ -28,4 +27,4 @@ const ItemList = () =>{
     ) 
 }
 
-export default ItemList
+export default ItemListContainer

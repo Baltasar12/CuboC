@@ -3,7 +3,7 @@ import {CartProvider} from "react-use-cart";
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/NavBar/NavBar";
-import ItemList from './components/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer';
 import ItemCount from './components/ItemCount';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <Navbar/>
     <>
     <CartProvider>
-    <ItemList/>
+    <ItemListContainer/>
     <ItemCount/>
     </CartProvider>
     </>
